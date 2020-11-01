@@ -1,0 +1,115 @@
+Megismerkedünk a változó (angolul: variable) fogalmával. A változó olyan, mint egy doboz, aminek felirata van. A dobozba tehetünk bármit – most épp karakterláncot, angolul stringet teszünk bele a program első sorában.
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+refrén = 'Csillárom, haj!'
+print('Csizmadialegények')
+print('\nCsizmadialegények')
+print(refrén)
+print('Nyolcan ülnek egy lóra')
+print(refrén)
+print('Úgy mennek a jó borra')
+print(refrén)
+# a következő sorban felülírjuk a változó értékét
+refrén = 'Sej, ripityom!'
+print('Parancsolnak kocsmárosnak;')
+print('Mérjen egy decit nyócuknak!')
+print(refrén) # itt már Sej, ripityom! lesz
+print('Azt se tudják kifizetni.')
+print('Az ablakon szekdesnek ki.')
+print(refrén)
+A 4-6-8. sorban használjuk a változót: a változó neve helyére a Python automatikusan behelyettesíti a változó értékét. A tizedik sorban felülírjuk a változó eredeti értékét – ezzel a régi értéket a gép egyszer és mindenkorra elfelejti. Ezt követően az új érték a refrén.
+
+Az értékadás
+A kód 1. és 10. sorában értékadás művelete történik. Figyelj, ez egy művelet. Matekórán az x = 5 egy kijelentés. Egy megállapítás. Itt nem: itt cselekvésre szólítjuk fel vele a gépet. Azt mondjuk neki, hogy “Hozz létre egy ilyen-és-ilyen nevű változót, és tedd bele ezt-és-ezt!” Van olyan nyelv, ahol nem is egyenlőségjel ennek a műveletnek a műveleti jele, hanem egy kettőspont és egy egyenlőségjel, azaz “:=”. A 10. sort így olvassuk ki: a refrén legyen egyenlő Sej, ripityommal.
+
+Objektumhivatkozás és változó
+A legtöbb nyelvben változók vannak, a Pythonban objektumhivatkozások. A kettő közötti különbség egy picit talán kiderül a videóból, de egyelőre nem olyan fontos. A változó mint név olyannyira elterjedt az informatikában, hogy a Pythonban programozók is ezt használják, úgyhogy mi is ezt fogjuk – a szempontunkból nem olyan nagy a különbség a két fogalom között.
+
+A változónevek
+A Python nagyon megengedő: bármilyen betű és szám lehet a változónévben. A legtöbb programozási nyelv nem engedi az ékezetes betűk használatát. Sokan – mármint a régebben programozók közül sokan – sebzett vadként hördülnek fel, amikor azt látják, hogy a változóneveim magyarok, ráadásul ékezetesek – ugyanis a programozócsapatok, akik olyan igazi-igazi programokat írnak, sokszor nemzetköziek, és ilyenkor nem nyerő a magyar változónév. Igen, ha már túl vagyunk a tanulásunk kezdeti szakaszán, akkor illik angol változóneveket használni. Igen, majd én is így fogok tenni addigra. Van, aki szerint nem jó, ha hibás gyakorlatot alakítok ki benned, mert megszokod a magyar neveket. Azt mondom, ha neked segíti a gondolkodásodat, hogy magyarul gondolkodhatsz, akkor megéri. Majd átszoksz, ha kelleni fog. Megjegyezzük még, hogy a változónév nem kezdődhet számmal és nem lehet benne szóköz, de lehet benne alávonás (angolul: underscore).
+
+Megjegyzések (kommentek)
+Ha egy sorban kettőskereszt van, akkor az utána jövő szöveget (számot, akármit) a Python nem veszi figyelembe, ide írhatunk akármit, ami nekünk fontos. Mondjuk olyat is írhatunk, ami nem fontos. Az, amit az első sorba szoktam írni (a fenti kódrészletben nem látszik, de a videóban igen), nem számít megjegyzésnek.
+
+Feladatok, amiket nem felejtesz el megcsinálni:)
+F0002a: Melyik állat nevét nem írja ki a program? (Csak a válasz megadását követően ér lefuttatni a programot:))
+
+1
+2
+3
+4
+5
+6
+7
+cica = 'kutya'
+kutya = 'egér'
+egér = 'cica'
+print(cica)
+print('kutya')
+print(egér)
+print('cica')
+F0002b: Mi lesz kiírva a program kimenetének utolsó sorában?
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+cica = 'kutya'
+print(cica)
+kutya = 'egér'
+egér = 'cica'
+print('kutya')
+cica = 'tyúk'
+print(egér)
+kutya = cica
+print('kutya')
+print(kutya)
+F0002c: Hány sornyi kiírás, azaz szöveg és üres sor kerül a képernyőre, ha majd egyszer lefuttatod ezt a programot?
+
+1
+2
+3
+4
+5
+print('Első sor\n')
+print('\nNos?')
+print('Azaz?\n')
+print('\nAkkor most mennyi?\n\n')
+print('Utolsó sor')
+F0002d: Rajzold ki egyetlen print() utasítással az alábbi ábrát! (Megoldás itt.) (Ennek a feladatnak – meg a következő kettőnek – az ötlete innen származik.)
+
+F0002d feladat ábra
+
+F0002e: Ha visszapert (backslash, “\”) akarunk kiírni a print()-tel, akkor az utasításban két visszapert kell írnunk, mert az első arra jó, hogy levédje az utána álló karaktert, mint a \n esetén már láttad. Ennek fényében: Rajzold ki egyetlen print() utasítással az alábbi ábrát! (Megoldás itt.)
+
+F0002e feladat ábra
+
+F0002f: Rajzold ki egyetlen print() utasítással az alábbi ábrát! (Megoldás itt.)
+
+F0002f feladat ábra
+
+És végül
+(Ennek a posztnak a címe ebből a könyvből származik, amelyet a szarvasi gyerekkönyvtárból vettem ki, olyankor, amikor még reményem sem volt, hogy valaha lesz számítógépem. Ezerszer elolvastam, annyira tetszett. Aztán anyu hozott egy ilyet Bécsből (mert ez akkoriban így volt szokás), és ezzel eldőlt az életem egy része.)
+
+Előzőleg megtanultunk a képernyőre írni. Legközelebb kiderül, miként kérdezhet a gép valamit tőlünk.
