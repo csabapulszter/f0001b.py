@@ -1,0 +1,47 @@
+Első programunk – írás a képernyőre
+raerek / 2016. 09. 11.
+Hát, ezek szerint nekifogtál. Okéééééééé…:)
+
+A legelső programunkban nem szakadunk bele a program bonyolultságába, annyira egyszerű lesz, amennyire csak lehet.
+
+Első változatában:
+
+1
+print('Szia')
+Elmondanám, hogy a sorszámok nem tartoznak a programkódhoz, és hogy ez és minden, a Pythonidomáron megjelenő programkódot könnyen be tudsz másolni az IDLE-be. Próbáld csak ki, menni fog! A print utasítás magyarul egyébként annyit tesz, hogy nyomtass, nyomtatni – ezúttal természetesen a képernyőre való “nyomtatást” értve rajta.
+
+És lássuk a lecke videóját:
+
+
+
+Az első programunk tehát teljes két sort ír ki. Ha egyelőre túlzásnak is tűnik, hogy a kiírandó szöveget aposztrófok közé vagy idézőjelbe és zárójelbe is kell tenni, majd megértjük a dolgot:)
+
+Csak hogy szokjuk, megnézzük ezt a nagyon bonyolult programot folyamatábrán is:
+
+P0001 folyamatábra
+
+
+REPORT THIS AD
+
+REPORT THIS AD
+
+A folyamatábrán – nem meglepő módon – annyit látunk, hogy a program elkezdődik, kiír két dolgot, majd véget ér. Ez is bonyolódik majd.
+
+És lássuk a leckéhez kapcsolódó feladatokat, amiket mindig oldj meg, mielőtt továbblépsz – különben egyszer csak azon kapod magad, hogy nem értesz már semmit. A feladatok mindig egy adott programhoz kapcsolódnak, és a program számával meg egy betűvel fogom őket azonosítani.
+
+Feladatok
+F0001a: Mi történik, ha lefuttatjuk ezt a programot? A program futtatása nélkül fogalmazd meg magadnak – aztán persze lefuttathatod, hogy lásd, igazad volt-e:)
+
+1
+2
+print('...Hogyha én ezt tudtam volna)
+print('Köpönyeget hoztam vóna'!)
+F0001b: Mi történik, ha lefuttatjuk ezt a programot?
+
+1
+2
+print('Rásír a sok kis malac is!')
+print('"Én is, én is, én is, én is!"')
+Rájöttél, hogy miként lehet idézőjeles szöveget írni a képernyőre?
+
+Legközelebb a változókról tanulunk.
